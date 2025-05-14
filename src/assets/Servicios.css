@@ -1,0 +1,43 @@
+.servicios-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #fff;
+  border-right: 2px solid #000;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.sidebar h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sidebar-link {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.8rem;
+  background: #fff;
+  border: 2px solid #000;
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+  box-shadow: 4px 4px 0 #000;
+  transition: 0.2s ease;
+}
+
+.sidebar-link:hover {
+  background-color: #f0f0f0;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 #000;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #fafafa;
+}
